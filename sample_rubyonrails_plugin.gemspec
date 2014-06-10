@@ -7,11 +7,11 @@ require "sample_rubyonrails_plugin/version"
 Gem::Specification.new do |s|
   s.name        = "sample_rubyonrails_plugin"
   s.version     = SampleRubyonrailsPlugin::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SampleRubyonrailsPlugin."
-  s.description = "TODO: Description of SampleRubyonrailsPlugin."
+  s.authors     = ["Hadi Badjian"]
+  s.email       = ["hadi hadibadjian.me"]
+  s.homepage    = "https://github.com/hadibadjian/sample_rubyonrails_plugin"
+  s.summary     = "A sample plugin using Ruby on Rails to experiment different aspects of Plugins."
+  s.description = "A sample plugin using Ruby on Rails to experiment different aspects of Plugins."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: wickwalls
+#
+#  id          :integer          not null, primary key
+#  last_squawk :string(255)
+#  last_tweet  :string(255)
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_squawk: MyString
+  last_tweet: MyString
+
+two:
+  last_squawk: MyString
+  last_tweet: MyString

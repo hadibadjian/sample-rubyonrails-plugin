@@ -1,7 +1,18 @@
 = SampleRubyonrailsPlugin
 
 == Getting Started
-Plugin creation
+Gemified plugin creation:
   rails plugin new sample_rubyonrails_plugin
+
+== Testing
+Jump to test/dummy folder:
+  ~/D/p/g/s/t/dummy (master) $ pwd
+  /Users/hadibadjian/Documents/projects/github/sample_rubyonrails_plugin/test/dummy
+  ~/D/p/g/s/t/dummy (master) $ rails c -s
+  Loading development environment in sandbox (Rails 4.0.5)
+  Any modifications you make will be rolled back on exit
+  2.1.1 :001 > "hello world".to_squawk
+   => "squawk! hello world"
+  2.1.1 :002 >
 
 This project rocks and uses MIT-LICENSE.
