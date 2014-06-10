@@ -1,3 +1,9 @@
 = SampleRubyonrailsPlugin
 
+== Getting Started
+Plugin creation
+```
+rails plugin new sample_rubyonrails_plugin
+```
+
 This project rocks and uses MIT-LICENSE.
